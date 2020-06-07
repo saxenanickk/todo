@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* todoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* todoTests.m */; };
+		0C3A4468FA74A63700B003A5 /* libPods-todo-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3F70C89BC0D4FCDCD2F899 /* libPods-todo-tvOSTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		26C6FEB3F81F79CA4735E83E /* libPods-todo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBE4EDB3054FF664963D48F /* libPods-todo-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* todoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* todoTests.m */; };
-		49FC30AAE5C8952E542751F3 /* libPods-todo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C90B5CB8C67B9C345C0357 /* libPods-todo-tvOS.a */; };
-		6FE3D4CEE19CAEED3ACB29CB /* libPods-todo-todoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5716D37131FAA9B671DDB6BD /* libPods-todo-todoTests.a */; };
-		95C614BAE52BEE9D4FB6012B /* libPods-todo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A11CCE1125D0FD349166107 /* libPods-todo.a */; };
-		D54B0CDE00812DECE2B40C50 /* libPods-todo-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F60755B32748C6E193E4A129 /* libPods-todo-tvOSTests.a */; };
+		ECE06BE87F1CD19DE8015AA7 /* libPods-todo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD15DBEE9D397E797F9679A /* libPods-todo.a */; };
+		F50B3AF5E926FD4D436BA0A8 /* libPods-todo-todoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3ACF8CB10CF863FE7ACE707 /* libPods-todo-todoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		00E356EE1AD99517003FC87E /* todoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* todoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = todoTests.m; sourceTree = "<group>"; };
-		13A7632CC65314CC99F1F3CB /* Pods-todo-todoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-todoTests.debug.xcconfig"; path = "Target Support Files/Pods-todo-todoTests/Pods-todo-todoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = todo/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = todo/AppDelegate.m; sourceTree = "<group>"; };
@@ -52,21 +51,22 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = todo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = todo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = todo/main.m; sourceTree = "<group>"; };
-		15344A6F57F3F3CE09020056 /* Pods-todo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-tvOS.release.xcconfig"; path = "Target Support Files/Pods-todo-tvOS/Pods-todo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		1B3F70C89BC0D4FCDCD2F899 /* libPods-todo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-todo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2314F7A00B9C6D4C82DE8F29 /* Pods-todo-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-todo-tvOSTests/Pods-todo-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		252771BF806FE7E2BC528AD4 /* Pods-todo-todoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-todoTests.debug.xcconfig"; path = "Target Support Files/Pods-todo-todoTests/Pods-todo-todoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* todo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "todo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* todo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "todo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D4E5435AF8496A1659A216C /* Pods-todo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo.debug.xcconfig"; path = "Target Support Files/Pods-todo/Pods-todo.debug.xcconfig"; sourceTree = "<group>"; };
-		5716D37131FAA9B671DDB6BD /* libPods-todo-todoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-todo-todoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		61C90B5CB8C67B9C345C0357 /* libPods-todo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-todo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B46A2FD23F7C2831203ED74 /* Pods-todo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-todo-tvOS/Pods-todo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		8F5222B272AF062C858142D2 /* Pods-todo-todoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-todoTests.release.xcconfig"; path = "Target Support Files/Pods-todo-todoTests/Pods-todo-todoTests.release.xcconfig"; sourceTree = "<group>"; };
-		9A11CCE1125D0FD349166107 /* libPods-todo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-todo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1A795B8159190E99385E2E3 /* Pods-todo-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-todo-tvOSTests/Pods-todo-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CB0FBAC99204B9232E31EA74 /* Pods-todo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo.release.xcconfig"; path = "Target Support Files/Pods-todo/Pods-todo.release.xcconfig"; sourceTree = "<group>"; };
-		DA387C4E068A20DB7F804118 /* Pods-todo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-todo-tvOSTests/Pods-todo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B7430FE6C99CA8D423D55A8 /* Pods-todo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-todo-tvOSTests/Pods-todo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		4EB06F5B2430E79BADFA355D /* Pods-todo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-tvOS.release.xcconfig"; path = "Target Support Files/Pods-todo-tvOS/Pods-todo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		54A962EEDCD0EFBF1171376F /* Pods-todo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo.release.xcconfig"; path = "Target Support Files/Pods-todo/Pods-todo.release.xcconfig"; sourceTree = "<group>"; };
+		6D00A02F01BDD1B1683B5739 /* Pods-todo-todoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-todoTests.release.xcconfig"; path = "Target Support Files/Pods-todo-todoTests/Pods-todo-todoTests.release.xcconfig"; sourceTree = "<group>"; };
+		747280388069571DA90154E7 /* Pods-todo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-todo-tvOS/Pods-todo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BCBE4EDB3054FF664963D48F /* libPods-todo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-todo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3ACF8CB10CF863FE7ACE707 /* libPods-todo-todoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-todo-todoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD15DBEE9D397E797F9679A /* libPods-todo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-todo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF17AC59138A419D8ECA31F /* Pods-todo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo.debug.xcconfig"; path = "Target Support Files/Pods-todo/Pods-todo.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F60755B32748C6E193E4A129 /* libPods-todo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-todo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FE3D4CEE19CAEED3ACB29CB /* libPods-todo-todoTests.a in Frameworks */,
+				F50B3AF5E926FD4D436BA0A8 /* libPods-todo-todoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95C614BAE52BEE9D4FB6012B /* libPods-todo.a in Frameworks */,
+				ECE06BE87F1CD19DE8015AA7 /* libPods-todo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49FC30AAE5C8952E542751F3 /* libPods-todo-tvOS.a in Frameworks */,
+				26C6FEB3F81F79CA4735E83E /* libPods-todo-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D54B0CDE00812DECE2B40C50 /* libPods-todo-tvOSTests.a in Frameworks */,
+				0C3A4468FA74A63700B003A5 /* libPods-todo-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,25 +141,25 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				9A11CCE1125D0FD349166107 /* libPods-todo.a */,
-				5716D37131FAA9B671DDB6BD /* libPods-todo-todoTests.a */,
-				61C90B5CB8C67B9C345C0357 /* libPods-todo-tvOS.a */,
-				F60755B32748C6E193E4A129 /* libPods-todo-tvOSTests.a */,
+				DBD15DBEE9D397E797F9679A /* libPods-todo.a */,
+				D3ACF8CB10CF863FE7ACE707 /* libPods-todo-todoTests.a */,
+				BCBE4EDB3054FF664963D48F /* libPods-todo-tvOS.a */,
+				1B3F70C89BC0D4FCDCD2F899 /* libPods-todo-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		61D7EA34F74A6BF4B43D9E54 /* Pods */ = {
+		535D84D8AEAD5F5640691EF7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2D4E5435AF8496A1659A216C /* Pods-todo.debug.xcconfig */,
-				CB0FBAC99204B9232E31EA74 /* Pods-todo.release.xcconfig */,
-				13A7632CC65314CC99F1F3CB /* Pods-todo-todoTests.debug.xcconfig */,
-				8F5222B272AF062C858142D2 /* Pods-todo-todoTests.release.xcconfig */,
-				6B46A2FD23F7C2831203ED74 /* Pods-todo-tvOS.debug.xcconfig */,
-				15344A6F57F3F3CE09020056 /* Pods-todo-tvOS.release.xcconfig */,
-				A1A795B8159190E99385E2E3 /* Pods-todo-tvOSTests.debug.xcconfig */,
-				DA387C4E068A20DB7F804118 /* Pods-todo-tvOSTests.release.xcconfig */,
+				DBF17AC59138A419D8ECA31F /* Pods-todo.debug.xcconfig */,
+				54A962EEDCD0EFBF1171376F /* Pods-todo.release.xcconfig */,
+				252771BF806FE7E2BC528AD4 /* Pods-todo-todoTests.debug.xcconfig */,
+				6D00A02F01BDD1B1683B5739 /* Pods-todo-todoTests.release.xcconfig */,
+				747280388069571DA90154E7 /* Pods-todo-tvOS.debug.xcconfig */,
+				4EB06F5B2430E79BADFA355D /* Pods-todo-tvOS.release.xcconfig */,
+				2314F7A00B9C6D4C82DE8F29 /* Pods-todo-tvOSTests.debug.xcconfig */,
+				3B7430FE6C99CA8D423D55A8 /* Pods-todo-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -180,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* todoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				61D7EA34F74A6BF4B43D9E54 /* Pods */,
+				535D84D8AEAD5F5640691EF7 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -205,7 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "todoTests" */;
 			buildPhases = (
-				51557ECC6CC16AA457E9FE63 /* [CP] Check Pods Manifest.lock */,
+				79FBD4D590894F9064B8CF53 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,7 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "todo" */;
 			buildPhases = (
-				A265351F24E6725D77C1EE16 /* [CP] Check Pods Manifest.lock */,
+				1E0A70B4591ACD6746121DF7 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -244,7 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "todo-tvOS" */;
 			buildPhases = (
-				E34BFEFBC2C6E1B1462EF5D0 /* [CP] Check Pods Manifest.lock */,
+				98ED3800297AE4C4DF59C5AA /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -264,7 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "todo-tvOSTests" */;
 			buildPhases = (
-				F894AD7689D928CFE98DA4C2 /* [CP] Check Pods Manifest.lock */,
+				670D86381E85F371568911DC /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -375,43 +375,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		51557ECC6CC16AA457E9FE63 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-todo-todoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A265351F24E6725D77C1EE16 /* [CP] Check Pods Manifest.lock */ = {
+		1E0A70B4591ACD6746121DF7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -433,29 +397,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E34BFEFBC2C6E1B1462EF5D0 /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "Bundle React Native Code And Images";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-todo-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		F894AD7689D928CFE98DA4C2 /* [CP] Check Pods Manifest.lock */ = {
+		670D86381E85F371568911DC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -471,6 +427,50 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-todo-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79FBD4D590894F9064B8CF53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-todo-todoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98ED3800297AE4C4DF59C5AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-todo-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -582,7 +582,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13A7632CC65314CC99F1F3CB /* Pods-todo-todoTests.debug.xcconfig */;
+			baseConfigurationReference = 252771BF806FE7E2BC528AD4 /* Pods-todo-todoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -605,7 +605,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F5222B272AF062C858142D2 /* Pods-todo-todoTests.release.xcconfig */;
+			baseConfigurationReference = 6D00A02F01BDD1B1683B5739 /* Pods-todo-todoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -625,7 +625,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D4E5435AF8496A1659A216C /* Pods-todo.debug.xcconfig */;
+			baseConfigurationReference = DBF17AC59138A419D8ECA31F /* Pods-todo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -652,7 +652,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB0FBAC99204B9232E31EA74 /* Pods-todo.release.xcconfig */;
+			baseConfigurationReference = 54A962EEDCD0EFBF1171376F /* Pods-todo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -673,7 +673,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B46A2FD23F7C2831203ED74 /* Pods-todo-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 747280388069571DA90154E7 /* Pods-todo-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,7 +701,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15344A6F57F3F3CE09020056 /* Pods-todo-tvOS.release.xcconfig */;
+			baseConfigurationReference = 4EB06F5B2430E79BADFA355D /* Pods-todo-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -729,7 +729,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1A795B8159190E99385E2E3 /* Pods-todo-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 2314F7A00B9C6D4C82DE8F29 /* Pods-todo-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -756,7 +756,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA387C4E068A20DB7F804118 /* Pods-todo-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 3B7430FE6C99CA8D423D55A8 /* Pods-todo-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
