@@ -7,19 +7,20 @@
  */
 
 import React from 'react';
-import {SafeAreaView, View, Text, StatusBar} from 'react-native';
+import {SafeAreaView, StatusBar, StyleSheet} from 'react-native';
+import Home from './src/Containers/Home';
 
-const App = () => {
-  return (
-    <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-          <Text>Todo App</Text>
-        </View>
-      </SafeAreaView>
-    </>
-  );
-};
+const App = () => (
+  <>
+    <StatusBar backgroundColor="#FFFFFF" barStyle="dark-content" />
+    <SafeAreaView style={styles.container}>
+      <Home />
+    </SafeAreaView>
+  </>
+);
+
+const styles = StyleSheet.create({
+  container: {flex: 1},
+});
 
 export default App;
