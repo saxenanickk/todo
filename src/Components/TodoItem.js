@@ -18,7 +18,7 @@ const TodoItem = ({item, index, visibleTodos, getClickHandler}) => (
           </TouchableOpacity>
         ) : null}
         <TouchableOpacity
-          onPress={() => this.getClickHandler(item.id, 'delete')}
+          onPress={() => getClickHandler(item.id, 'delete')}
           style={styles.crossIconContainer}>
           {cross()}
         </TouchableOpacity>
