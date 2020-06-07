@@ -117,6 +117,16 @@ class Home extends React.Component {
     return returnableData;
   };
 
+  renderListEmptyComponent = () => (
+    <View style={styles.listEmptyContainer}>
+      <TodoText>
+        {`No Todos${
+          this.state.todos.length ? ' matching current criteria.' : '.'
+        }`}
+      </TodoText>
+    </View>
+  );
+
   render() {
     const {showModal, type} = this.state;
 
@@ -152,6 +162,7 @@ class Home extends React.Component {
             showsVerticalScrollIndicator={false}
             data={this.visibleTodos}
             keyExtractor={(item, index) => index.toString()}
+            ListEmptyComponent={this.renderListEmptyComponent}
             renderItem={({item, index}) => (
               <TodoItem
                 item={item}
@@ -210,6 +221,9 @@ const styles = StyleSheet.create({
     height: 1,
     alignSelf: 'center',
     backgroundColor: '#d6d6e4',
+  },
+  listEmptyContainer: {
+    alignItems: 'center',
   },
   headerTitle: {fontSize: 24, fontWeight: 'bold'},
   container: {
