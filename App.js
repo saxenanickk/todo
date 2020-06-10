@@ -9,10 +9,11 @@
 import React from 'react';
 import {SafeAreaView, StatusBar, StyleSheet} from 'react-native';
 import Home from './src/Containers/Home';
+import {theme} from './src/utils/theme';
 
 const App = () => (
   <>
-    <StatusBar backgroundColor="#FFFFFF" barStyle="dark-content" />
+    <StatusBar backgroundColor={theme.statusBarColor} barStyle="dark-content" />
     <SafeAreaView style={styles.container}>
       <Home />
     </SafeAreaView>

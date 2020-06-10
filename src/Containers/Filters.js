@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, StyleSheet, Dimensions, TouchableOpacity} from 'react-native';
 import {TodoText} from '../Components/TodoText';
+import {theme} from '../utils/theme';
 
 const {width, height} = Dimensions.get('window');
 
@@ -31,7 +32,7 @@ const styles = StyleSheet.create({
     elevation: 5,
     width: width / 3,
     height: height / 4,
-    backgroundColor: '#FFFFFF',
+    backgroundColor: theme.primaryColor,
     justifyContent: 'space-around',
     padding: 10,
   },

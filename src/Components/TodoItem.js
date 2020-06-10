@@ -12,8 +12,7 @@ const TodoItem = ({item, index, visibleTodos, getClickHandler}) => (
       <View style={styles.actionContainer}>
         {item.status ? (
           <TouchableOpacity
-            onPress={() => getClickHandler(item.id, 'markAsDone')}
-            style={styles.checkIconContainer}>
+            onPress={() => getClickHandler(item.id, 'markAsDone')}>
             {check()}
           </TouchableOpacity>
         ) : null}
@@ -31,8 +30,7 @@ const TodoItem = ({item, index, visibleTodos, getClickHandler}) => (
 export default TodoItem;
 
 const styles = StyleSheet.create({
-  crossIconContainer: {backgroundColor: '#FFFFFF', marginLeft: 15},
-  checkIconContainer: {backgroundColor: '#FFFFFF'},
+  crossIconContainer: {marginLeft: 15},
   markedDoneLine: {
     position: 'absolute',
     width: width,

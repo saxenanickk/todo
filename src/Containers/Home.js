@@ -24,6 +24,7 @@ import DialogModal from '../Components/DialogModal';
 import TodoItem from '../Components/TodoItem';
 import AddTodo from './AddTodo';
 import Filters from './Filters';
+import {theme} from '../utils/theme';
 
 const {width, height} = Dimensions.get('window');
 
@@ -210,7 +211,7 @@ export default Home;
 const styles = StyleSheet.create({
   header: {
     height: height / 7,
-    backgroundColor: '#FFFFFF',
+    backgroundColor: theme.primaryColor,
     justifyContent: 'space-around',
     paddingHorizontal: 20,
   },
@@ -230,11 +231,11 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: 20,
     paddingTop: 20,
-    backgroundColor: '#FFFFFF',
+    backgroundColor: theme.primaryColor,
   },
   addIconContainer: {
     position: 'absolute',
-    backgroundColor: '#FFFFFF',
+    backgroundColor: theme.primaryColor,
     justifyContent: 'center',
     alignItems: 'center',
     bottom: 10,
