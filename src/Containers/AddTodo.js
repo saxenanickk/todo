@@ -29,10 +29,11 @@ const AddTodo = ({addTodo, onRequestClose}) => {
         autoFocus={true}
         onChangeText={text => setContent(text)}
         value={content}
-        multiLine={true}
-        returnKeyType={'next'}
         placeholder={'Add a new Todo'}
         style={styles.searchTextInput}
+        multiline={true}
+        returnKeyType={Platform.OS === 'ios' ? 'done' : 'default'}
+        blurOnSubmit={Platform.OS === 'ios' ? true : false}
       />
       <TouchableOpacity
         style={styles.crossButton}
@@ -75,6 +76,7 @@ const styles = StyleSheet.create({
   },
   heading: {fontWeight: 'bold', fontSize: 20},
   searchTextInput: {
+    maxHeight: height / 8,
     borderColor: 'grey',
     borderWidth: 1,
     borderRadius: 30,
